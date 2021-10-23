@@ -1,0 +1,46 @@
+body {
+  background: grey;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  text-align: center;
+  background: yellow;
+  border: black 3px solid;
+  padding: 5px;
+}
+
+.img {
+  width: 180px;
+  height: auto;
+  margin-block-end: 15px;
+}
+
+.select {
+  border: black 3px solid;
+  height: 30px;
+}
+
+.textarea {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 20px;
+  border: black 3px solid;
+}
+
+.btn {
+  margin: 15px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: black 3px solid;
+  outline: none;
+  cursor: grab;
+}
