@@ -1,5 +1,17 @@
 body {
-  background: grey;
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .parent {
@@ -14,10 +26,11 @@ body {
   background: yellow;
   border: black 3px solid;
   padding: 5px;
+  width: 500px;
 }
 
 .img {
-  width: 180px;
+  width: 250px;
   height: auto;
   margin-block-end: 15px;
 }
@@ -25,11 +38,13 @@ body {
 .select {
   border: black 3px solid;
   height: 30px;
+  width: 350px;
+  text-align: center;
 }
 
 .textarea {
-  width: 250px;
-  height: 200px;
+  width: 350px;
+  height: 300px;
   border-radius: 10px;
   margin: 20px;
   border: black 3px solid;
@@ -38,7 +53,7 @@ body {
 .btn {
   margin: 15px;
   height: 40px;
-  width: 100px;
+  width: 170px;
   border-radius: 10px;
   border: black 3px solid;
   outline: none;
